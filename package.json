@@ -1,0 +1,51 @@
+{
+  "name": "@susurration/core",
+  "version": "0.1.0",
+  "description": "Shared measurement rules for Susurration: agent list and family classification, robots.txt evaluation, canonical hashing.",
+  "license": "Apache-2.0",
+  "author": "Tim Roelofs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmroel90/susurration-core.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./agents": {
+      "types": "./dist/agents/index.d.ts",
+      "import": "./dist/agents/index.js"
+    },
+    "./robots": {
+      "types": "./dist/robots/index.d.ts",
+      "import": "./dist/robots/index.js"
+    },
+    "./verify": {
+      "types": "./dist/verify/index.d.ts",
+      "import": "./dist/verify/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "tsc -p tsconfig.build.json",
+    "pack-smoke": "node scripts/pack-smoke.mjs"
+  },
+  "peerDependencies": {
+    "zod": "^4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.10",
+    "zod": "^4.4.3"
+  }
+}
