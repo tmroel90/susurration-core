@@ -1,4 +1,4 @@
-// Source: hiveminds-lens-snapshot app/services/scanner/checks/robots_txt.ts at
+// Source: Lens, app/services/scanner/checks/robots_txt.ts at
 // 29e86804aca9e02d3a3584a507419a1818a7efb7: evaluateBotPath and the pure
 // functions it uses, without the network code. Comments translated to English.
 

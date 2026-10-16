@@ -1,4 +1,4 @@
-// Source: hiveminds-lens-snapshot app/services/access_audit/types.ts at
+// Source: Lens, app/services/access_audit/types.ts at
 // 29e86804aca9e02d3a3584a507419a1818a7efb7 (BotCategory, BotAgent,
 // BotAgentList), plus the optional `family` and readonly arrays for the
 // constant list.

@@ -1,6 +1,6 @@
 // stableStringify had no unit test in the source; these are the first. The
 // vectors in fixtures/stable-vectors.json are the output of the source
-// stableStringify (hiveminds-playground src/api/serialize.ts at
+// stableStringify (Susurration playground, src/api/serialize.ts at
 // d5f58c6f0ef51ef21b27ac1568c9c8ac600f1ca9) on fixtures/stable-inputs.ts, with
 // the sha256 hex digest of each output.
 import { createHash } from 'node:crypto'

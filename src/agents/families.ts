@@ -1,4 +1,4 @@
-// Source: hiveminds-playground src/telemetry/families.ts at
+// Source: Susurration playground, src/telemetry/families.ts at
 // d5f58c6f0ef51ef21b27ac1568c9c8ac600f1ca9. Unchanged apart from two things:
 // the playground's own families (self-check, codex-connector) are left out,
 // and a consumer can pass its own patterns, evaluated after the scanner path

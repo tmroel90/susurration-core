@@ -1,4 +1,4 @@
-// Source: hiveminds-lens-snapshot app/services/access_audit/agents.ts lines
+// Source: Lens, app/services/access_audit/agents.ts lines
 // 15-42 at 29e86804aca9e02d3a3584a507419a1818a7efb7, plus the optional
 // `family` field.
 import { z } from 'zod'

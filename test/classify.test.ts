@@ -1,4 +1,4 @@
-// Test vectors taken over literally from hiveminds-playground
+// Test vectors taken over literally from Susurration playground,
 // test/telemetry/telemetry.test.ts at d5f58c6f0ef51ef21b27ac1568c9c8ac600f1ca9
 // (UA_FIXTURES and the "agent classification" block). Core must give the same
 // family for every case. The playground's own families (self-check,
