@@ -1,0 +1,99 @@
+{
+  "cases": [
+    {
+      "name": "null",
+      "stable": "null",
+      "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "true",
+      "stable": "true",
+      "sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "name": "zero",
+      "stable": "0",
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "name": "negative float",
+      "stable": "-12.5",
+      "sha256": "6e734d1ba4828d18ef4d256e8820f89e30551bca8b2c5740f2ed9fc532da07de"
+    },
+    {
+      "name": "large integer",
+      "stable": "12000000",
+      "sha256": "93769500adc9dec1f17f2a507afbf67c2c3791974d798fc305413b153d9a808e"
+    },
+    {
+      "name": "string",
+      "stable": "\"flock\"",
+      "sha256": "063add5d8b761dc1d00dc324a34d766ecfe213a648e12a1c8517c946a774adab"
+    },
+    {
+      "name": "string with quotes and unicode",
+      "stable": "\"a \\\"quote\\\" and é and 🐦\"",
+      "sha256": "cc2a9224e2d9eb71797c94ff875b66ead9671e6f61ddf94790898861e26dfc3f"
+    },
+    {
+      "name": "empty object",
+      "stable": "{}",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "name": "empty array",
+      "stable": "[]",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "flat object, keys out of order",
+      "stable": "{\"a\":1,\"b\":2,\"c\":3}",
+      "sha256": "e6a3385fb77c287a712e7f406a451727f0625041823ecf23bea7ef39b2e39805"
+    },
+    {
+      "name": "same object, other key order",
+      "stable": "{\"a\":1,\"b\":2,\"c\":3}",
+      "sha256": "e6a3385fb77c287a712e7f406a451727f0625041823ecf23bea7ef39b2e39805"
+    },
+    {
+      "name": "nested objects",
+      "stable": "{\"first\":\"x\",\"outer\":{\"a\":{\"b\":null,\"y\":true},\"z\":1}}",
+      "sha256": "6795eba4746f241fc9a29c25ab35abe9c9f225e1fffcc5f59856e9496e8efeb7"
+    },
+    {
+      "name": "array order is kept",
+      "stable": "[3,1,2]",
+      "sha256": "51bda7ab4e44726cde71fcb6e4b515357059bb6b6dd5146d1fc50f73f11678c6"
+    },
+    {
+      "name": "array of objects",
+      "stable": "[{\"a\":2,\"b\":1},{\"c\":{\"e\":0,\"f\":1},\"d\":[2,1]}]",
+      "sha256": "bb98b7805cea91b6e03d1763960009c874a848d7ee5e253c204e768c59788691"
+    },
+    {
+      "name": "object with array values",
+      "stable": "{\"claims\":[],\"runs\":[{\"n\":120,\"seed\":7}]}",
+      "sha256": "27bff138b14eaaa2078746f7e5daa3159378d58c64e5433292cedb9126fc3033"
+    },
+    {
+      "name": "numeric-like keys",
+      "stable": "{\"1\":\"one\",\"10\":\"ten\",\"2\":\"two\"}",
+      "sha256": "88f1d5d864d29ee7e34bed097931cc725766463ad2b97c08685f0c20dbc66b21"
+    },
+    {
+      "name": "undefined property (source writes \"undefined\")",
+      "stable": "{\"a\":undefined,\"b\":1}",
+      "sha256": "044d797234f10415a0fb43a108e8ac41cbbcd0490bda10bf067d8b0d2e9baaf0"
+    },
+    {
+      "name": "NaN becomes null",
+      "stable": "{\"value\":null}",
+      "sha256": "1c197daef20de3f47eec5e2f735ec6669869d3180cc29f35be4788511e0af0f8"
+    },
+    {
+      "name": "trace-like record",
+      "stable": "{\"metrics\":{\"cluster_count\":1,\"mean_neighbor_distance\":15.02,\"polarization\":0.9123},\"params\":{\"alignment\":0.5,\"cohesion\":0.5,\"n\":120,\"noise\":0.1,\"separation\":0.5},\"tick\":2000}",
+      "sha256": "9ea81106c0adc92a9c3f8f80297e6a13db06a0322c9d49a9e16fd53639653352"
+    }
+  ]
+}

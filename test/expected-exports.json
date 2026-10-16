@@ -11,5 +11,9 @@
   "robots": [
     "evaluateBotPath"
   ],
-  "verify": []
+  "verify": [
+    "CORE_VERSION",
+    "canonicalHash",
+    "stableStringify"
+  ]
 }
