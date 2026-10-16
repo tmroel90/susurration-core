@@ -8,6 +8,8 @@
     "botAgentSchema",
     "classifyAgent"
   ],
-  "robots": [],
+  "robots": [
+    "evaluateBotPath"
+  ],
   "verify": []
 }

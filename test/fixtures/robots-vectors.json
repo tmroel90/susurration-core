@@ -1,0 +1,4624 @@
+{
+  "cases": [
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "returns empty when robots.txt is empty",
+      "robotsTxt": "",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects GPTBot disallowed",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "detects multiple AI bots blocked",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats User-agent: * with Disallow: / as blocking all AI bots",
+      "robotsTxt": "User-agent: *\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with Allow: / override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "lets a specific group with an empty Disallow override a wildcard block for that bot",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow:",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "keeps a bot blocked when both the wildcard and its own group disallow everything",
+      "robotsTxt": "User-agent: *\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /admin",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /admin",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /admin",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /admin",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /admin",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /admin",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /admin",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "does not flag a wildcard group that only disallows a subpath",
+      "robotsTxt": "User-agent: *\nDisallow: /admin",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "treats multiple User-agent lines above one rule block as one group",
+      "robotsTxt": "User-agent: GPTBot\nUser-agent: ClaudeBot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /private",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "starts a new group when User-agent follows a rule line",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /\nUser-agent: ClaudeBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "handles CRLF line endings and mixed casing of directives and agents",
+      "robotsTxt": "user-AGENT: *\r\nDISALLOW: /\r\n\r\nUser-Agent: gptbot\r\nallow: /\r\n",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": true
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": "Allow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "prefers the longest matching specific group over a shorter prefix match",
+      "robotsTxt": "User-agent: Claude\nDisallow: /\n\nUser-agent: ClaudeBot\nAllow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "ignores comments and blank lines",
+      "robotsTxt": "# This is a comment\n\nUser-agent: GPTBot\n# Block everything\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /private",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "does not flag partial disallow paths",
+      "robotsTxt": "User-agent: GPTBot\nDisallow: /private",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "GPTBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": false,
+        "matchedRule": "Disallow: /",
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ClaudeBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Claude-Web",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "PerplexityBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "Google-Extended",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "OAI-SearchBot",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/private",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/admin",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    },
+    {
+      "name": "handles case-insensitive user-agent matching",
+      "robotsTxt": "User-agent: gptbot\nDisallow: /",
+      "token": "ChatGPT-User",
+      "path": "/pagina",
+      "verdict": {
+        "allowed": true,
+        "matchedRule": null,
+        "viaWildcard": false
+      }
+    }
+  ]
+}
