@@ -5,6 +5,7 @@ import { execFileSync } from 'node:child_process'
 import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
+import { smokeCalls } from './smoke-calls.mjs'
 
 const root = new URL('..', import.meta.url).pathname
 const expected = JSON.parse(readFileSync(join(root, 'test/expected-exports.json'), 'utf8'))
@@ -40,7 +41,18 @@ for (const [specifier, names] of Object.entries(entries)) {
   console.log('ok ' + specifier + ' (' + actual.length + ' exports)')
 }
 `
-  writeFileSync(join(dir, 'check.mjs'), check)
+  const allNames = entries['@susurration/core']
+  const missing = allNames.filter((name) => !(name in smokeCalls))
+  if (missing.length > 0) throw new Error(`no smoke call for: ${missing.join(', ')}`)
+  const calls = `
+const calls = { ${allNames.map((name) => `${JSON.stringify(name)}: ${smokeCalls[name].toString()}`).join(',\n')} }
+const mod = await import('@susurration/core')
+for (const [name, call] of Object.entries(calls)) {
+  if (call(mod) !== true) throw new Error('smoke call failed: ' + name)
+  console.log('called ' + name)
+}
+`
+  writeFileSync(join(dir, 'check.mjs'), check + calls)
   execFileSync('node', ['check.mjs'], { cwd: dir, stdio: 'inherit' })
 } finally {
   rmSync(dir, { recursive: true, force: true })

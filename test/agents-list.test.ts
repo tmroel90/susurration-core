@@ -72,7 +72,9 @@ describe('source invariants', () => {
   })
 
   it('has 14 robots tokens: every agent except the browser control', () => {
-    const tokens = agents.map((a) => a.robotsToken).filter((t): t is string => t !== null)
+    const tokens = agents
+      .map((a): string | null => a.robotsToken)
+      .filter((t): t is string => t !== null)
     expect(tokens).toContain('Google-Extended')
     expect(tokens).toContain('Googlebot')
     expect(tokens).toContain('GPTBot')
