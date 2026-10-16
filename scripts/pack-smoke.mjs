@@ -24,10 +24,10 @@ try {
   })
 
   const entries = {
-    '@susurration/core': [...expected.agents, ...expected.robots, ...expected.verify],
-    '@susurration/core/agents': expected.agents,
-    '@susurration/core/robots': expected.robots,
-    '@susurration/core/verify': expected.verify,
+    '@susurration-ai/core': [...expected.agents, ...expected.robots, ...expected.verify],
+    '@susurration-ai/core/agents': expected.agents,
+    '@susurration-ai/core/robots': expected.robots,
+    '@susurration-ai/core/verify': expected.verify,
   }
   const check = `
 const entries = ${JSON.stringify(entries)}
@@ -41,12 +41,12 @@ for (const [specifier, names] of Object.entries(entries)) {
   console.log('ok ' + specifier + ' (' + actual.length + ' exports)')
 }
 `
-  const allNames = entries['@susurration/core']
+  const allNames = entries['@susurration-ai/core']
   const missing = allNames.filter((name) => !(name in smokeCalls))
   if (missing.length > 0) throw new Error(`no smoke call for: ${missing.join(', ')}`)
   const calls = `
 const calls = { ${allNames.map((name) => `${JSON.stringify(name)}: ${smokeCalls[name].toString()}`).join(',\n')} }
-const mod = await import('@susurration/core')
+const mod = await import('@susurration-ai/core')
 for (const [name, call] of Object.entries(calls)) {
   if (call(mod) !== true) throw new Error('smoke call failed: ' + name)
   console.log('called ' + name)
