@@ -1,9 +1,10 @@
 // The agent list must be deep-equal to the source list, apart from the added
-// `family` field. Source: hiveminds-lens-snapshot
+// `family` field and the four notes below. Source: Lens,
 // resources/access/bot_agents.json at 29e86804aca9e02d3a3584a507419a1818a7efb7,
-// copied to test/fixtures/bot_agents.json without its top-level `comment`
-// (not list content). The block "source invariants" takes over the list cases
-// of tests/unit/services/access_audit/agents.spec.ts at the same sha (the
+// copied to test/fixtures/bot_agents.json without its top-level `comment` (not
+// list content) and with the same four notes changed. The block "source
+// invariants" takes over the list cases of Lens
+// tests/unit/services/access_audit/agents.spec.ts at the same sha (the
 // `loadBotAgents` block, and the token count of `declarativeTokens`). The
 // schema rejection cases are our own: the source has no tests for them.
 import { readFileSync } from 'node:fs'
@@ -29,6 +30,40 @@ function withoutFamily(list: typeof BOT_AGENT_LIST): unknown {
     }),
   }
 }
+
+// The only change to the source text: four notes referred to internal work
+// items. In each, "T1 PR 3 (5 okt 2026)" became "5 okt 2026" and
+// " (besluit V2)" was removed. Old and new text, literally:
+const OLD_TAIL =
+  'Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard.'
+const NEW_TAIL =
+  'Sinds 5 okt 2026 alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP. UA-string blijft als data bewaard.'
+const CHANGED_NOTES: Record<string, { old: string; new: string }> = {
+  ccbot: { old: OLD_TAIL, new: NEW_TAIL },
+  'meta-externalagent': { old: OLD_TAIL, new: NEW_TAIL },
+  amazonbot: {
+    old: `Amazon documenteert een voorbeeldformaat met variabele Chrome-versie; dit is de breed in logs waargenomen klassieke string met token en verificatie-URL. ${OLD_TAIL}`,
+    new: `Amazon documenteert een voorbeeldformaat met variabele Chrome-versie; dit is de breed in logs waargenomen klassieke string met token en verificatie-URL. ${NEW_TAIL}`,
+  },
+  bytespider: {
+    old: `ByteDance heeft geen officiele documentatiepagina; string zoals breed in serverlogs waargenomen. ${OLD_TAIL}`,
+    new: `ByteDance heeft geen officiele documentatiepagina; string zoals breed in serverlogs waargenomen. ${NEW_TAIL}`,
+  },
+}
+
+describe('changed notes', () => {
+  it('changes exactly these four notes, and only the internal references in them', () => {
+    const changed = BOT_AGENT_LIST.agents.filter((agent) => agent.key in CHANGED_NOTES)
+    expect(changed.map((agent) => agent.key).sort()).toEqual(Object.keys(CHANGED_NOTES).sort())
+    for (const agent of changed) {
+      const { old, new: replacement } = CHANGED_NOTES[agent.key]!
+      expect(agent.note).toBe(replacement)
+      expect(
+        old.replace('T1 PR 3 (5 okt 2026)', '5 okt 2026').replace(' (besluit V2)', ''),
+      ).toBe(replacement)
+    }
+  })
+})
 
 describe('source invariants', () => {
   const agents = BOT_AGENT_LIST.agents
