@@ -8,5 +8,8 @@ export const smokeCalls = {
   botAgentListSchema: (m) => m.botAgentListSchema.parse(m.BOT_AGENT_LIST).agents.length === 15,
   botAgentSchema: (m) => m.botAgentSchema.parse(m.BOT_AGENT_LIST.agents[0]).key === 'control-browser',
   classifyAgent: (m) => m.classifyAgent('Mozilla/5.0; compatible; GPTBot/1.4', 'http') === 'gptbot',
+  CORE_VERSION: (m) => typeof m.CORE_VERSION === 'string' && m.CORE_VERSION.length > 0,
+  canonicalHash: (m) => m.canonicalHash({ b: 1, a: 2 }) === m.canonicalHash({ a: 2, b: 1 }),
+  stableStringify: (m) => m.stableStringify({ b: 1, a: [2, 1] }) === '{"a":[2,1],"b":1}',
   evaluateBotPath: (m) => m.evaluateBotPath('User-agent: GPTBot\nDisallow: /', 'GPTBot', '/x').allowed === false,
 }
