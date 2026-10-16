@@ -1,6 +1,6 @@
 // Inputs for the stableStringify and canonicalHash vectors. The expected
 // outputs in stable-vectors.json come from the source implementation
-// (hiveminds-playground src/api/serialize.ts at
+// (Susurration playground, src/api/serialize.ts at
 // d5f58c6f0ef51ef21b27ac1568c9c8ac600f1ca9) run on exactly these inputs.
 export const STABLE_INPUTS: [string, unknown][] = [
   ['null', null],

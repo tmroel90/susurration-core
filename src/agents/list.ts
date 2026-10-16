@@ -1,6 +1,7 @@
-// The canonical AI agent list. Source: hiveminds-lens-snapshot
+// The canonical AI agent list. Source: Lens,
 // resources/access/bot_agents.json at 29e86804aca9e02d3a3584a507419a1818a7efb7,
-// without its top-level `comment`. Each agent carries the same fields as the
+// without its top-level `comment` and with four notes changed (see
+// test/agents-list.test.ts). Each agent carries the same fields as the
 // source plus an optional `family`: the generic family from classifyAgent that
 // belongs to this agent one to one. test/agents-list.test.ts proves the rest
 // is deep-equal to the source.
@@ -65,7 +66,7 @@ export const BOT_AGENT_LIST = {
       declarativeOnly: true,
       source: "https://commoncrawl.org/ccbot",
       verifiedAt: "2026-08-07",
-      note: "Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard.",
+      note: "Sinds 5 okt 2026 alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP. UA-string blijft als data bewaard.",
       family: "ccbot",
     },
     {
@@ -77,7 +78,7 @@ export const BOT_AGENT_LIST = {
       declarativeOnly: true,
       source: "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers",
       verifiedAt: "2026-08-07",
-      note: "Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard.",
+      note: "Sinds 5 okt 2026 alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP. UA-string blijft als data bewaard.",
       family: "meta-external",
     },
     {
@@ -89,7 +90,7 @@ export const BOT_AGENT_LIST = {
       declarativeOnly: true,
       source: "https://developer.amazon.com/amazonbot",
       verifiedAt: "2026-08-07",
-      note: "Amazon documenteert een voorbeeldformaat met variabele Chrome-versie; dit is de breed in logs waargenomen klassieke string met token en verificatie-URL. Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard.",
+      note: "Amazon documenteert een voorbeeldformaat met variabele Chrome-versie; dit is de breed in logs waargenomen klassieke string met token en verificatie-URL. Sinds 5 okt 2026 alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP. UA-string blijft als data bewaard.",
     },
     {
       key: "bytespider",
@@ -100,7 +101,7 @@ export const BOT_AGENT_LIST = {
       declarativeOnly: true,
       source: "https://www.bytedance.com/",
       verifiedAt: "2026-08-07",
-      note: "ByteDance heeft geen officiele documentatiepagina; string zoals breed in serverlogs waargenomen. Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard.",
+      note: "ByteDance heeft geen officiele documentatiepagina; string zoals breed in serverlogs waargenomen. Sinds 5 okt 2026 alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP. UA-string blijft als data bewaard.",
       family: "bytespider",
     },
     {

@@ -1,4 +1,4 @@
-// Test vectors from hiveminds-lens-snapshot at
+// Test vectors from Lens at
 // 29e86804aca9e02d3a3584a507419a1818a7efb7:
 // - "source cases": tests/unit/services/scanner/checks/evaluate_bot_path.spec.ts,
 //   taken over literally (Dutch test names as in the source).

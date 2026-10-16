@@ -1,4 +1,4 @@
-// Source: hiveminds-playground src/api/serialize.ts lines 14-20 at
+// Source: Susurration playground, src/api/serialize.ts lines 14-20 at
 // d5f58c6f0ef51ef21b27ac1568c9c8ac600f1ca9 (stableStringify), unchanged.
 import { createHash } from 'node:crypto'
 
