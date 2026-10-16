@@ -8,4 +8,5 @@ export const smokeCalls = {
   botAgentListSchema: (m) => m.botAgentListSchema.parse(m.BOT_AGENT_LIST).agents.length === 15,
   botAgentSchema: (m) => m.botAgentSchema.parse(m.BOT_AGENT_LIST.agents[0]).key === 'control-browser',
   classifyAgent: (m) => m.classifyAgent('Mozilla/5.0; compatible; GPTBot/1.4', 'http') === 'gptbot',
+  evaluateBotPath: (m) => m.evaluateBotPath('User-agent: GPTBot\nDisallow: /', 'GPTBot', '/x').allowed === false,
 }
