@@ -1,0 +1,170 @@
+{
+  "verifiedAt": "2026-08-07",
+  "agents": [
+    {
+      "key": "control-browser",
+      "label": "Reguliere browser",
+      "category": "control",
+      "robotsToken": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "declarativeOnly": false,
+      "source": "https://www.chromium.org/updates/ua-reduction/",
+      "verifiedAt": "2026-08-07",
+      "note": "Controle-referentie: het differentiaal control-vs-bot op hetzelfde IP is de bewijsbasis."
+    },
+    {
+      "key": "control-googlebot",
+      "label": "Googlebot",
+      "category": "control",
+      "robotsToken": "Googlebot",
+      "userAgent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+      "declarativeOnly": false,
+      "source": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+      "verifiedAt": "2026-08-07",
+      "note": "Tweede control: laat zien of een blokkade specifiek op AI-bots richt of op alle bots."
+    },
+    {
+      "key": "gptbot",
+      "label": "GPTBot",
+      "category": "training",
+      "robotsToken": "GPTBot",
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.4; +https://openai.com/gptbot",
+      "declarativeOnly": false,
+      "source": "https://developers.openai.com/api/docs/bots",
+      "verifiedAt": "2026-08-07",
+      "note": null
+    },
+    {
+      "key": "claudebot",
+      "label": "ClaudeBot",
+      "category": "training",
+      "robotsToken": "ClaudeBot",
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)",
+      "declarativeOnly": false,
+      "source": "https://support.claude.com/en/articles/8896518",
+      "verifiedAt": "2026-08-07",
+      "note": "Anthropic publiceert botnamen zonder volledige strings; string komt uit publieke crawler-registers en matcht wat sites in serverlogs zien."
+    },
+    {
+      "key": "ccbot",
+      "label": "CCBot",
+      "category": "training",
+      "robotsToken": "CCBot",
+      "userAgent": "CCBot/2.0 (https://commoncrawl.org/faq/)",
+      "declarativeOnly": true,
+      "source": "https://commoncrawl.org/ccbot",
+      "verifiedAt": "2026-08-07",
+      "note": "Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard."
+    },
+    {
+      "key": "meta-externalagent",
+      "label": "Meta-ExternalAgent",
+      "category": "training",
+      "robotsToken": "meta-externalagent",
+      "userAgent": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+      "declarativeOnly": true,
+      "source": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers",
+      "verifiedAt": "2026-08-07",
+      "note": "Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard."
+    },
+    {
+      "key": "amazonbot",
+      "label": "Amazonbot",
+      "category": "training",
+      "robotsToken": "Amazonbot",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot)",
+      "declarativeOnly": true,
+      "source": "https://developer.amazon.com/amazonbot",
+      "verifiedAt": "2026-08-07",
+      "note": "Amazon documenteert een voorbeeldformaat met variabele Chrome-versie; dit is de breed in logs waargenomen klassieke string met token en verificatie-URL. Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard."
+    },
+    {
+      "key": "bytespider",
+      "label": "Bytespider",
+      "category": "training",
+      "robotsToken": "Bytespider",
+      "userAgent": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)",
+      "declarativeOnly": true,
+      "source": "https://www.bytedance.com/",
+      "verifiedAt": "2026-08-07",
+      "note": "ByteDance heeft geen officiele documentatiepagina; string zoals breed in serverlogs waargenomen. Sinds T1 PR 3 (5 okt 2026) alleen declaratief: gespoofte verzoeken met deze UA provoceerden WAF-greylists op het meet-IP (besluit V2). UA-string blijft als data bewaard."
+    },
+    {
+      "key": "google-extended",
+      "label": "Google-Extended",
+      "category": "training",
+      "robotsToken": "Google-Extended",
+      "userAgent": null,
+      "declarativeOnly": true,
+      "source": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+      "verifiedAt": "2026-08-07",
+      "note": "Uitsluitend een robots.txt-token zonder eigen crawler; bewijs komt alleen uit robots.txt, nooit uit een verzoek. Telt niet mee in het gedragsoordeel."
+    },
+    {
+      "key": "oai-searchbot",
+      "label": "OAI-SearchBot",
+      "category": "search",
+      "robotsToken": "OAI-SearchBot",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+      "declarativeOnly": false,
+      "source": "https://developers.openai.com/api/docs/bots",
+      "verifiedAt": "2026-08-07",
+      "note": null
+    },
+    {
+      "key": "perplexitybot",
+      "label": "PerplexityBot",
+      "category": "search",
+      "robotsToken": "PerplexityBot",
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+      "declarativeOnly": false,
+      "source": "https://docs.perplexity.ai/guides/bots",
+      "verifiedAt": "2026-08-07",
+      "note": null
+    },
+    {
+      "key": "claude-searchbot",
+      "label": "Claude-SearchBot",
+      "category": "search",
+      "robotsToken": "Claude-SearchBot",
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +Claude-SearchBot@anthropic.com)",
+      "declarativeOnly": false,
+      "source": "https://support.claude.com/en/articles/8896518",
+      "verifiedAt": "2026-08-07",
+      "note": "Zie ClaudeBot: string uit publieke crawler-registers, consistent met serverlogs."
+    },
+    {
+      "key": "chatgpt-user",
+      "label": "ChatGPT-User",
+      "category": "userfetch",
+      "robotsToken": "ChatGPT-User",
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+      "declarativeOnly": false,
+      "source": "https://developers.openai.com/api/docs/bots",
+      "verifiedAt": "2026-08-07",
+      "note": null
+    },
+    {
+      "key": "claude-user",
+      "label": "Claude-User",
+      "category": "userfetch",
+      "robotsToken": "Claude-User",
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +Claude-User@anthropic.com)",
+      "declarativeOnly": false,
+      "source": "https://support.claude.com/en/articles/8896518",
+      "verifiedAt": "2026-08-07",
+      "note": "Zie ClaudeBot: string uit publieke crawler-registers, consistent met serverlogs."
+    },
+    {
+      "key": "perplexity-user",
+      "label": "Perplexity-User",
+      "category": "userfetch",
+      "robotsToken": "Perplexity-User",
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user)",
+      "declarativeOnly": false,
+      "source": "https://docs.perplexity.ai/guides/bots",
+      "verifiedAt": "2026-08-07",
+      "note": null
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 {
-  "agents": [],
+  "agents": [
+    "AGENT_LIST_VERSION",
+    "BOT_AGENT_LIST",
+    "FAMILY_PATTERNS",
+    "SCANNER_PATH_PATTERNS",
+    "botAgentListSchema",
+    "botAgentSchema",
+    "classifyAgent"
+  ],
   "robots": [],
   "verify": []
 }
