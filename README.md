@@ -1,18 +1,18 @@
-# @susurration/core
+# @susurration-ai/core
 
 The measurement rules that Susurration's tools share, as a small TypeScript package. It answers three questions about a visit: which agent is this (`agents`), may it come here according to robots.txt (`robots`), and is this record the same as another one (`verify`). The code has no network, file or database access, so anyone can run it on the same input and check a published result.
 
 Requires Node 22 or later. `zod` 4 is a peer dependency (used by the agent list schema).
 
 ```sh
-npm install @susurration/core zod
+npm install @susurration-ai/core zod
 ```
 
 Everything can be imported from the root, or from one of the three subpaths below.
 
 ## Modules
 
-### `@susurration/core/agents`
+### `@susurration-ai/core/agents`
 
 The canonical list of AI agents and the classification of a visitor into a family.
 
@@ -22,7 +22,7 @@ The canonical list of AI agents and the classification of a visitor into a famil
 - `AGENT_LIST_VERSION` is the date of the last change in content to the list or its families.
 
 ```ts
-import { BOT_AGENT_LIST, classifyAgent } from '@susurration/core/agents'
+import { BOT_AGENT_LIST, classifyAgent } from '@susurration-ai/core/agents'
 
 classifyAgent('Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.4; +https://openai.com/gptbot', 'http', '/products')
 // 'gptbot'
@@ -40,7 +40,7 @@ Exports: `BOT_AGENT_LIST`, `AGENT_LIST_VERSION`, `FAMILY_PATTERNS`, `SCANNER_PAT
 
 Types: `BotAgent`, `BotAgentList`, `BotCategory`, `ClassifyOptions`, `FamilyPattern`, `VisitChannel`
 
-### `@susurration/core/robots`
+### `@susurration-ai/core/robots`
 
 `evaluateBotPath(robotsTxt, botToken, path)` decides whether a bot token may fetch a path under a robots.txt file, following RFC 9309:
 
@@ -52,7 +52,7 @@ Types: `BotAgent`, `BotAgentList`, `BotCategory`, `ClassifyOptions`, `FamilyPatt
 The result says whether the path is allowed, which rule decided it, and whether the `*` group was used.
 
 ```ts
-import { evaluateBotPath } from '@susurration/core/robots'
+import { evaluateBotPath } from '@susurration-ai/core/robots'
 
 evaluateBotPath('User-agent: *\nDisallow: /\nAllow: /public', 'GPTBot', '/public/page')
 // { allowed: true, matchedRule: 'Allow: /public', viaWildcard: true }
@@ -62,14 +62,14 @@ Exports: `evaluateBotPath`
 
 Types: `BotPathVerdict`
 
-### `@susurration/core/verify`
+### `@susurration-ai/core/verify`
 
 - `stableStringify(value)` writes JSON with object keys sorted at every level and arrays kept in order. Two records with the same values give the same string, whatever their key order.
 - `canonicalHash(value)` is the sha256 hex digest of `stableStringify(value)`.
 - `CORE_VERSION` is the version of this package, so a report can state which version produced it.
 
 ```ts
-import { canonicalHash, stableStringify } from '@susurration/core/verify'
+import { canonicalHash, stableStringify } from '@susurration-ai/core/verify'
 
 stableStringify({ b: 1, a: [2, 1] })
 // '{"a":[2,1],"b":1}'

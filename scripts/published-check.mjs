@@ -3,7 +3,7 @@
 import { execFileSync } from 'node:child_process'
 import { appendFileSync, readFileSync } from 'node:fs'
 
-const PACKAGE = '@susurration/core'
+const PACKAGE = '@susurration-ai/core'
 
 /** True when `npm view <package>@<version> version` prints exactly that version. */
 export function alreadyPublished(version, view) {

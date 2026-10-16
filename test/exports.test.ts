@@ -21,6 +21,13 @@ describe('exports', () => {
     expect(sorted(Object.keys(mod))).toEqual(sorted(expected[name]))
   })
 
+  it('is published as @susurration-ai/core', () => {
+    const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8')) as {
+      name: string
+    }
+    expect(pkg.name).toBe('@susurration-ai/core')
+  })
+
   it('the root re-exports every subpath and nothing else', () => {
     expect(sorted(Object.keys(root))).toEqual(
       sorted([...expected.agents, ...expected.robots, ...expected.verify]),

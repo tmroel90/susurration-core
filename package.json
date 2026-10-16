@@ -1,5 +1,5 @@
 {
-  "name": "@susurration/core",
+  "name": "@susurration-ai/core",
   "version": "0.1.0",
   "description": "Shared measurement rules for Susurration: agent list and family classification, robots.txt evaluation, canonical hashing.",
   "license": "Apache-2.0",

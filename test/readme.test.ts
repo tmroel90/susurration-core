@@ -10,7 +10,7 @@ const expected = JSON.parse(
 ) as Record<'agents' | 'robots' | 'verify', string[]>
 
 function documentedExports(module: string): string[] {
-  const start = readme.indexOf(`### \`@susurration/core/${module}\``)
+  const start = readme.indexOf(`### \`@susurration-ai/core/${module}\``)
   if (start === -1) throw new Error(`no README section for ${module}`)
   const next = readme.indexOf('\n### ', start + 1)
   const section = readme.slice(start, next === -1 ? undefined : next)
