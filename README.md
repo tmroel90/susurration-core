@@ -1,6 +1,6 @@
 # @susurration-ai/core
 
-The measurement rules that Susurration's tools share, as a small TypeScript package. It answers three questions about a visit: which agent is this (`agents`), may it come here according to robots.txt (`robots`), and is this record the same as another one (`verify`). The code has no network, file or database access, so anyone can run it on the same input and check a published result.
+The measurement rules that Susurration's tools share, as a small TypeScript package. It answers three questions about a visit: which agent is this and where did it come from (`agents`), may it come here according to robots.txt (`robots`), and is this record the same as another one, or the same visitor within one day (`verify`). The code has no network, file or database access, so anyone can run it on the same input and check a published result.
 
 Requires Node 22 or later. `zod` 4 is a peer dependency (used by the agent list schema).
 
@@ -17,12 +17,14 @@ Everything can be imported from the root, or from one of the three subpaths belo
 The canonical list of AI agents and the classification of a visitor into a family.
 
 - `BOT_AGENT_LIST` holds 15 agents. Each agent has a key, a label, a category (`training`, `search`, `userfetch` or `control`), its robots.txt token, its user agent string, whether it is declarative-only, a source URL, a verification date and a note. The notes are in Dutch, as in the source list. Where one family belongs to an agent one to one, the agent also has a `family`.
-- `classifyAgent(userAgent, channel, path?, options?)` returns a family name. A path that looks like a vulnerability scan (for example `/.env` or `/wp-admin`) gives `scanner`, whatever the user agent says. Otherwise the user agent is matched against your own `options.patterns` first and then against `FAMILY_PATTERNS`. Without a match the result is `mcp-client` on the `mcp` channel, `browser` for a user agent that starts with `Mozilla/`, and `unknown` otherwise.
+- `classifyAgent(userAgent, channel, path?, options?)` returns a family name. A path that looks like a vulnerability scan (for example `/.env` or `/wp-admin`) gives `scanner`, whatever the user agent says. Otherwise the user agent is matched against your own `options.patterns` first and then against `FAMILY_PATTERNS`. A pattern of your own with `before: '<family>'` is matched right in front of that generic family instead of first. Without a match the result is `mcp-client` on the `mcp` channel, `browser` for a user agent that starts with `Mozilla/`, and `unknown` otherwise.
+- `orderedFamilyPatterns(options?)` returns the patterns in the order `classifyAgent` tries them, so a consumer can check that order in its own tests.
+- `classifyReferrer(referer, options?)` turns a Referer header into a class: `catalog`, `search-engine` or `ai-assistant` from `REFERRER_CLASS_PATTERNS` (matched on the hostname), your own classes from `options.patterns` first (for example `own` for your domain), `none` without a header and `other` for anything else. Store the class, not the header.
 - `botAgentSchema` and `botAgentListSchema` are the Zod schemas the list validates against.
 - `AGENT_LIST_VERSION` is the date of the last change in content to the list or its families.
 
 ```ts
-import { BOT_AGENT_LIST, classifyAgent } from '@susurration-ai/core/agents'
+import { BOT_AGENT_LIST, classifyAgent, classifyReferrer } from '@susurration-ai/core/agents'
 
 classifyAgent('Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.4; +https://openai.com/gptbot', 'http', '/products')
 // 'gptbot'
@@ -32,13 +34,24 @@ classifyAgent('my-monitor/1.0', 'http', '/', {
 })
 // 'own-monitor'
 
+classifyAgent('my-connector/1.0', 'mcp', undefined, {
+  patterns: [{ family: 'own-connector', pattern: /my-connector/i, before: 'mcp-crawler' }],
+})
+// 'own-connector'
+
+classifyReferrer('https://smithery.ai/server/example')
+// 'catalog'
+
+classifyReferrer('https://example.org/about', { patterns: [{ class: 'own', pattern: /(^|\.)example\.org$/i }] })
+// 'own'
+
 BOT_AGENT_LIST.agents.filter((agent) => agent.category === 'userfetch').map((agent) => agent.key)
 // ['chatgpt-user', 'claude-user', 'perplexity-user']
 ```
 
-Exports: `BOT_AGENT_LIST`, `AGENT_LIST_VERSION`, `FAMILY_PATTERNS`, `SCANNER_PATH_PATTERNS`, `botAgentSchema`, `botAgentListSchema`, `classifyAgent`
+Exports: `BOT_AGENT_LIST`, `AGENT_LIST_VERSION`, `FAMILY_PATTERNS`, `SCANNER_PATH_PATTERNS`, `REFERRER_CLASS_PATTERNS`, `botAgentSchema`, `botAgentListSchema`, `classifyAgent`, `orderedFamilyPatterns`, `classifyReferrer`
 
-Types: `BotAgent`, `BotAgentList`, `BotCategory`, `ClassifyOptions`, `FamilyPattern`, `VisitChannel`
+Types: `BotAgent`, `BotAgentList`, `BotCategory`, `ClassifyOptions`, `FamilyPattern`, `ReferrerClassPattern`, `ReferrerOptions`, `VisitChannel`
 
 ### `@susurration-ai/core/robots`
 
@@ -66,19 +79,25 @@ Types: `BotPathVerdict`
 
 - `stableStringify(value)` writes JSON with object keys sorted at every level and arrays kept in order. Two records with the same values give the same string, whatever their key order.
 - `canonicalHash(value)` is the sha256 hex digest of `stableStringify(value)`.
+- `hashWithDailySalt(salt, ip)` is the HMAC-SHA256 of an address with a 32-byte salt, as lowercase hex. With one random salt per UTC day, thrown away after the day, a hash can be linked within that day and never across days. Making, keeping and deleting the salt is up to you.
 - `CORE_VERSION` is the version of this package, so a report can state which version produced it.
 
 ```ts
-import { canonicalHash, stableStringify } from '@susurration-ai/core/verify'
+import { randomBytes } from 'node:crypto'
+import { canonicalHash, hashWithDailySalt, stableStringify } from '@susurration-ai/core/verify'
 
 stableStringify({ b: 1, a: [2, 1] })
 // '{"a":[2,1],"b":1}'
 
 canonicalHash({ b: 1, a: 2 }) === canonicalHash({ a: 2, b: 1 })
 // true
+
+const todaysSalt = randomBytes(32)
+hashWithDailySalt(todaysSalt, '203.0.113.7')
+// 64 hex characters, the same for this address until the salt is replaced
 ```
 
-Exports: `CORE_VERSION`, `canonicalHash`, `stableStringify`
+Exports: `CORE_VERSION`, `canonicalHash`, `hashWithDailySalt`, `stableStringify`
 
 ## Versioning
 
@@ -86,7 +105,7 @@ This package follows semantic versioning, with one stricter rule: any change in 
 
 ## Where the rules come from
 
-The agent list and the robots.txt evaluation come from Lens. The family classification and `stableStringify` come from the Susurration playground. Both use these rules in production. Each module states the source file and revision it was copied from. The tests check that this package gives the same results as the source: on the source's own test cases, and for `stableStringify`, which had no tests in the source, on a set of inputs run through the source implementation.
+The agent list and the robots.txt evaluation come from Lens. The family classification, the referrer classes, the daily address hash and `stableStringify` come from the Susurration playground. Both use these rules in production. Each module states the source file and revision it was copied from. The tests check that this package gives the same results as the source: on the source's own test cases, and for `stableStringify`, which had no tests in the source, on a set of inputs run through the source implementation.
 
 The package is public because of house rule 3 of the Susurration governance, "same method, public and paid": https://susurration.ai/governance
 
