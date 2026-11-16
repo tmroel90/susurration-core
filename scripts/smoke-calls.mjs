@@ -8,6 +8,12 @@ export const smokeCalls = {
   botAgentListSchema: (m) => m.botAgentListSchema.parse(m.BOT_AGENT_LIST).agents.length === 15,
   botAgentSchema: (m) => m.botAgentSchema.parse(m.BOT_AGENT_LIST.agents[0]).key === 'control-browser',
   classifyAgent: (m) => m.classifyAgent('Mozilla/5.0; compatible; GPTBot/1.4', 'http') === 'gptbot',
+  orderedFamilyPatterns: (m) =>
+    m.orderedFamilyPatterns({ patterns: [{ family: 'x', pattern: /x/i, before: 'monitor' }] }).length ===
+    m.FAMILY_PATTERNS.length + 1,
+  REFERRER_CLASS_PATTERNS: (m) => m.REFERRER_CLASS_PATTERNS.length === 3,
+  classifyReferrer: (m) => m.classifyReferrer('https://smithery.ai/x') === 'catalog' && m.classifyReferrer(undefined) === 'none',
+  hashWithDailySalt: (m) => /^[0-9a-f]{64}$/.test(m.hashWithDailySalt(new Uint8Array(32), '203.0.113.7')),
   CORE_VERSION: (m) => typeof m.CORE_VERSION === 'string' && m.CORE_VERSION.length > 0,
   canonicalHash: (m) => m.canonicalHash({ b: 1, a: 2 }) === m.canonicalHash({ a: 2, b: 1 }),
   stableStringify: (m) => m.stableStringify({ b: 1, a: [2, 1] }) === '{"a":[2,1],"b":1}',

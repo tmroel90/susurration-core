@@ -3,10 +3,13 @@
     "AGENT_LIST_VERSION",
     "BOT_AGENT_LIST",
     "FAMILY_PATTERNS",
+    "REFERRER_CLASS_PATTERNS",
     "SCANNER_PATH_PATTERNS",
     "botAgentListSchema",
     "botAgentSchema",
-    "classifyAgent"
+    "classifyAgent",
+    "classifyReferrer",
+    "orderedFamilyPatterns"
   ],
   "robots": [
     "evaluateBotPath"
@@ -14,6 +17,7 @@
   "verify": [
     "CORE_VERSION",
     "canonicalHash",
+    "hashWithDailySalt",
     "stableStringify"
   ]
 }
